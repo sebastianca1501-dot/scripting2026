@@ -1,0 +1,124 @@
+/* AlWAYS import the fonts first so that you can use them later */
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.limelight-regular, h1, h2 {
+  font-family: "Limelight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+header,footer{
+    background-color: rgb(153, 21, 21);
+    /* center align the text */
+    text-align: center;
+    /* add top and bottom padding */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* change the text color to white */
+    color: white;
+}
+
+body{
+    /* remove the default padding and margin */
+    padding: 0;
+    margin: 0;
+
+    /* background colour */
+    background: #630d00;
+background: linear-gradient(180deg, rgba(99, 13, 0, 1) 0%, rgba(186, 134, 45, 1) 100%);
+}
+
+/* classes are reusable and can be added to many html tags */
+.bg-dark{
+    background-color: brown;
+}
+
+.bg-dark{
+    background-color: gray;
+}
+
+section{
+    /* max-width */
+    max-width: 960px;
+    /* centering the whole section */
+    margin: auto;
+    /* white text */
+    color: white;
+    /* add space inside the section */
+    padding: 10px;
+    /* add space after the section */
+    margin-bottom: 20px;
+    /* drop shadow */
+    -webkit-box-shadow: 14px 13px 35px -4px rgba(0,0,0,0.4), 14px 13px 35px -4px rgba(0,0,0,0.4); 
+    box-shadow: 14px 13px 35px -4px rgba(0,0,0,0.4), 14px 13px 35px -4px rgba(0,0,0,0.4);
+    /* stop content from overflowing outside of the section */
+    overflow: hidden;
+}
+
+/* float images to the left */
+/* Only images inside of sections */
+section img{
+    float: left;
+    margin-right: 20px;
+}
+
+
+
+/* *************************Navbar************************** */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  /* t, r, b, l */
+  /* t&b, r&l */
+  padding: 14px 16px;
+  /* removes the underline from links */
+  text-decoration: none;
+}
+
+
+nav ul li a:hover {
+  background-color: #111111;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+}
+
+/* **************Style or regular thingas****************** */
+a{
+    color: blue;
+}
+a:hover{
+    color: purple;
+    text-decoration: none;
+}
+
+.container{
+display: grid;
+grid-template-columns: auto auto auto;
+}
