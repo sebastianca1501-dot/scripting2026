@@ -1,0 +1,145 @@
+/* Import the fonts first so that you can use them later */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.limelight-regular, h1, h2 {
+  font-family: "Times new roman", Times, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+header,footer {
+  background-color: #044586;
+  /* center align the text */
+  text-align: center;
+  /* add top and bottom padding */
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /* change the text to white */
+  color: white;
+}
+
+/* Container to put the iamge on the left side of the page */
+.content-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Image size */
+.character-img{
+  max-width: 300px;
+  height: auto;
+}
+
+/* Typography & Font style */
+.text-content{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+body{
+    /* remove the default padding and margin */
+    margin: 0;
+    padding: 0;
+
+    /* Add the background color */
+    background: #2196c4;
+background: linear-gradient(90deg, rgba(33, 150, 196, 1) 0%, rgba(71, 121, 196, 1) 48%, rgba(2, 72, 179, 1) 100%);
+}
+
+/* classes are reusable and can be added to many html tags */
+.bg-blue{
+    background-color: #013cbb;
+}
+
+.bg-lightblue{
+    background-color: #0b6c92;
+}
+
+section{
+    /* max width */
+    max-width: 960px;
+    /* center the whole section in the page */
+    margin: auto;
+    /* white text */
+    color: white;
+    /* add space inside the section */
+    padding: 10px;
+    /* add space after the section */
+    margin-bottom: 20px;
+    /* drop shadow */
+    -webkit-box-shadow: 14px 13px 35px -4px rgba(0,0,0,0.4), 14px 13px 35px -4px rgba(0,0,0,0.4); 
+    box-shadow: 14px 13px 35px -4px rgba(0,0,0,0.4), 14px 13px 35px -4px rgba(0,0,0,0.4);
+    /* stop content from overflowing outside of the section */
+    overflow: hidden;
+}
+
+/* Float images to the left */
+/* Only apply to images inside sections */
+section img {
+    float: left;
+    margin-right: 20px;
+}
+
+
+
+/* **************************Navbar ************************** */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  /* t, r, b, l */
+  /* t&b, r&l */
+  padding: 14px 16px;
+  /* removes the underline from links */
+  text-decoration: none;
+}
+
+
+nav ul li a:hover {
+  background-color: #00008B;
+}
+
+nav{
+  position: sticky;
+  top: 0;
+}
+
+/* *******************Style or regular things ******************* */
+a{
+  color:#00008B
+}
+a:hover{
+  color: purple;
+  text-decoration: none;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
