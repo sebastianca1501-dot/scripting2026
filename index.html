@@ -4,184 +4,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>petopia</title>
+    <title>Roatan</title>
 
-    <!-- Bootstrap CSS -->
+    <!-- Latest compiled and minified CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Bootstrap Icons -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/petStyle.css" rel="stylesheet">
-
-    <!-- Bootstrap JavaScript -->
+    <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- The css goes here -->
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
 
-    <!-------------------Collapsing Navbar------------------->
+    <!-- Navbar goes here along with a logo -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-light">
 
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-                <img src="images/logoIcon.png" alt="Petopia Logo">
-            </a>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="adopt.html">Adopt</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="involved.html">Get Involved</a>
-                    </li>
-                </ul>
-            </div>
+        <div class="container-fluid justify-content-around">
+            <!-- Links -->
+            <ul class="navbar-nav flex-row flex-warp justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="geography.html">Geography</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="people.html">People</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="economy.html">Economy</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="attractions.html">Attractions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="references.html">References</a>
+                </li>
+            </ul>
         </div>
+
     </nav>
 
-    <!----------------------------Header------------------->
+    <!-- The main content goes here -->
+    <div class="container my-4">
+        <img src="Images/16017505-roatn-island-honduras.webp" width="700" height="600" alt="Roatan logo">
+    </div>
 
-    <header class="bg-primary text-white mb-5">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-6 my-auto p-4">
-                    <h1>Embrace Endless Love with your Furry Best Friend</h1>
-
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui maiores cum commodi corrupti
-                        aspernatur nesciunt minima deserunt tempore quibusdam delectus.</p>
-
-                    <a href="adopt.html" class="btn btn-light">
-                        Adopt a Pet
-                    </a>
+    <main class="container my-5">
+        <section class="row justify-content-center g-4">
+            <div class="col-lg-12 col-lg-10">
+                <div class="card-body">
+                    <h1 class="card-title">Welcome to Roatan</h1>
+                    <p class="card-text">I would like to invite you to visit one of the most beautiful and largest
+                        islands of the bay islands located in the northern coast of Honduras in the Caribbean Sea,
+                        the
+                        island is called Roatan. Like I said, the island is in Honduras, it’s a beautiful island
+                        with a
+                        very blue sea, so blue that when you swim in it you can see the bottom.</p>
+                    <img src="Images/pexels-lrm-exterior-299303-871488.jpg" width="600" height="500" alt="Roatan Beach">
                 </div>
-
-                <div class="col-sm-6 text-end">
-                    <img class="img-fluid" src="images/headerImages/homeHeader.jpg" alt="HomePage Person With Dog">
-                </div>
-            </div> <!--Ends row-->
-        </div> <!--Ends Container-->
-    </header>
-
-
-    <!----------------Main Content----------------------->
-
-    <main>
-        <div class="container my-5 py-5">
-            <div class="row">
-
-                <div class="col-md-6">
-
-                    <div class="row g-3">
-                        <div class="col-6">
-                            <img class="img-fluid" src="images/fit/dog.png" alt="Dog with Petopia">
-                        </div>
-
-                        <div class="col-6">
-                            <img class="img-fluid" src="images/fit/bunny.png" alt="Bunny with Petopia">
-                        </div>
-                    </div>
-
-                    <div class="row g-3 mt-1">
-                        <div class="col-6">
-                            <img class="img-fluid" src="images/fit/gerbil.png" alt="Gerbil with Petopia">
-                        </div>
-
-                        <div class="col-6">
-                            <img class="img-fluid" src="images/fit/cat.png" alt="Cat with Petopia">
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="col-md-6 my-auto p-4">
-                    <h2>Find Out Which Furry Friend Fits You Best</h2>
-
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe rem ratione dolorum qui dolore hic
-                        rerum magnam? Vitae earum, distinctio sit nobis quisquam a pariatur.</p>
-
-                    <button type="button" class="btn btn-outline-secondary">Explore More <i
-                            class="bi bi-arrow-right"></i></button>
-
-
-                </div>
-
             </div>
-        </div>
+        </section>
     </main>
 
-
-    <!--------------------------News Letter----------------->
-
-    <section class="bg-light py-5">
-        <div class="container-fluid p-0">
-            <div class="row g-0">
-                <div class="col-md-5">
-                    <img class="img-fluid w-100 h-100 object-fit-cover" src="images/newsletter.jpg" alt="Pets">
-                    <!-- change -->
-                </div>
-                <div class="col-md-7 bg-primary text-white d-flex align-items-center">
-                    <div class="p-4 p-lg-5">
-                        <h2>Subscribe to Our Newsletter</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe rem ratione dolorum qui
-                            dolore
-                            hic rerum magnam? Vitae earum, distinctio sit nobis quisquam a pariatur.</p>
-
-                        <div class="row g-2">
-                            <div class="col-lg-8">
-                                <input type="email" class="form-control" placeholder="Type your email here...">
-                            </div>
-                            <div class="col-lg-4">
-                                <button type="button" class="btn btn-light text-primary w-100">Subscribe
-                                    Now</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-
-    <!--------------------------Footer--------------------->
-
-    <footer class="bg-dark text-white text-center py-4">
+    <!-- Place the footer in here -->
+    <footer class="bg-light text-center">
         <div class="container">
-
-            <h3>Petopia</h3>
-
-            <p>Helping pets find their forever homes.</p>
-
-            <div class="mb-3">
-                <a href="https://www.facebook.com/" class="text-white mx-2" aria-label="Facebook">
-                    <i class="bi bi-facebook fs-3"></i>
-                </a>
-
-                <a href="https://www.instagram.com/" class="text-white mx-2" aria-label="Instagram">
-                    <i class="bi bi-instagram fs-3"></i>
-                </a>
-
-                <a href="https://www.youtube.com/" class="text-white mx-2" aria-label="YouTube">
-                    <i class="bi bi-youtube fs-3"></i>
-                </a>
-            </div>
-
-            <p class="mb-0">&copy; 2026 Petopia. All Rights Reserved.</p>
-
+            © 2026 Roatan Website. All rights reserved.
         </div>
     </footer>
+
 </body>
 
 </html>

@@ -1,0 +1,123 @@
+/* 60-30-10 color scheme*/
+:root {
+    --bg-main: #3eb6f1;
+    --primary-nav: #0d3b44;
+    --secondary: #f4d35e;
+    --text-color: #0c0b0b;
+}
+
+/*background text*/
+body{
+    background-color: var(--bg-main);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+}
+
+/*navigation bar*/
+.navbar {
+    background-color: var(--primary-nav);
+    padding: 1rem;
+}
+
+/*navigation links*/
+.navbar .nav-link {
+    color:#0d3b44;
+    font-weight:600;
+}
+
+.navbar .nav-link:hover {
+    color: var(--secondary);
+}
+
+footer{
+    background-color: var(--primary-nav);
+    color: var(--text-color);
+    padding: 1rem;
+    text-align: center;
+}
+
+/*Button8*/
+.btn-primary {
+    background-color: var(--secondary);
+    border: none;
+    color: var(--text-color);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
+/*Main centered*/
+main{
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+    text-align: center;
+}
+
+section{
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /*I add a little of a tropical feel to this section*/
+    border-top: 5px solid var(--secondary);
+}
+
+/*banner Image*/
+.banner {
+    display: block;
+    width: 100%;
+    height: 280%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+/*Content image*/
+.content-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 220px;
+    height: 180px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+/*Link list*/
+.link-list {
+    list-style-type: none;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.75rem;
+}
+
+.link-list a {
+    display: inline-block;
+    background-color: #ffffff;
+    color: var(--primary-nav);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.link-list a:hover {
+    background-color: var(--secondary);
+    color: var(--text-color);
+}
